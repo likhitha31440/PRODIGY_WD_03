@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+  <div class="game-controls">
+    <select id="game-mode">
+      <option value="pvp">Player vs Player</option>
+      <option value="pva">Player vs AI</option>
+    </select>
+    <div id="turn-indicator" class="turn-box">
+      <span id="x-turn">X's Turn</span>
+      <span id="o-turn">O's Turn</span>
+    </div>
+  </div>
+  <div class="game-board">
+    <div class="cell" id="cell-0"></div>
+    <div class="cell" id="cell-1"></div>
+    <div class="cell" id="cell-2"></div>
+    <div class="cell" id="cell-3"></div>
+    <div class="cell" id="cell-4"></div>
+    <div class="cell" id="cell-5"></div>
+    <div class="cell" id="cell-6"></div>
+    <div class="cell" id="cell-7"></div>
+    <div class="cell" id="cell-8"></div>
+  </div>
+  <button id="reset-button">Restart Game</button>
+  <script src="script.js"></script>
+</body>
+</html>
